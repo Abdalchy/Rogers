@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+body{
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.Menu-bar{
+    background-color:white;
+    text-align: center;
+    border-bottom: 1px dotted black;
+    padding: 2px;
+    height: 70px;
+    padding-top: 30px;
+    position: relative;
+
+
+}
+.Menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color:black;
+    padding-top: 10px;
+
+}
+.Menu-bar ul li{
+    width: 140px;
+    margin: 2px;
+    padding: 2px;
+}
+.Menu-bar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+
+}
+.active .Menu-bar ul li:hover{
+       background-color: aqua;
+       border-radius: 3px;
+      
+}
+.Sub-menu-2{
+    position: absolute;
+    top: 35px;
+}
+.Sub-menu-2 ul{
+    display: block;
+    border: 2px solid gray; 
+    width: 200px;
+    width: 200px;
+    top: 25px;
+    background-color: white;
+}
+.Sub-menu-2 ul li{
+    width: 200px;
+    padding: 10px;
+
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.sub-menu span:nth-child(1){
+    display: block;
+    padding: 5px 0px;
+}
+
+.sub-menu span:nth-child(2){
+    padding-right: 5px;
+}
+.brand-icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75px;
+    height: 75px;
+}
+ .z-in-1{
+    z-index: 1;
+ }
+
+ .w-300 {
+    width: 300px !important;
+ }
+ .sub-menu{ 
+    width: 200px !important;
+    display: inline-block;
+ }
+ .icon{ 
+    width: 90px !important;
+    display: inline-block;
+ }
+ .icon2{ 
+    width: 40px !important;
+    height: 40px;
+    margin-top: 5px;
+    display: inline-block;
+    padding-left: 15px;
+ }
+ 
+.b-r{
+    border-right: 2px solid gray;
+}
+
+ .drop-up-down{
+ position: relative;
+ width: 20px;
+ height: auto;
+ }
